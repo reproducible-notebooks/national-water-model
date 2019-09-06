@@ -1,0 +1,22 @@
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - intake
+  - intake-xarray
+  - xarray
+  - zarr
+  - fsspec
+  - h5netcdf
+  - matplotlib
+  - holoviews
+  - geoviews
+  - datashader
+  - hvplot
+  - panel
+  - requests
+  - pandas
+  - xgcm
+  - eofs
+  - pip:
+    - python-gist
