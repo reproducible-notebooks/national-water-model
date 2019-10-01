@@ -1,22 +1,17 @@
 channels:
   - conda-forge
 dependencies:
-  - python=3.6
-  - intake
-  - intake-xarray
-  - xarray
-  - zarr
+  - cartopy
   - fsspec
-  - h5netcdf
-  - matplotlib
-  - holoviews
-  - geoviews
-  - datashader
-  - hvplot
-  - panel
+  - pyviz/label/dev::hvplot
+  - pyviz/label/dev::holoviews
+  - pyviz/label/dev::panel
+  - pyviz/label/dev::datashader
+  - metpy
+  - numpy
+  - xarray
+  - pip
+  - pip:
+    - git+https://github.com/pyviz/geoviews.git
   - requests
   - pandas
-  - xgcm
-  - eofs
-  - pip:
-    - python-gist
