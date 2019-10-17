@@ -3,15 +3,13 @@ channels:
 dependencies:
   - cartopy
   - fsspec
-  - pyviz/label/dev::hvplot
-  - pyviz/label/dev::holoviews
-  - pyviz/label/dev::panel
-  - pyviz/label/dev::datashader
+  - hvplot
+  - holoviews
+  - panel
+  - datashader
+  - geoviews
   - metpy
   - numpy
   - xarray
-  - pip
-  - pip:
-    - git+https://github.com/pyviz/geoviews.git
   - requests
   - pandas
