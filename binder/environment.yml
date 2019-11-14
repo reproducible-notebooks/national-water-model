@@ -13,3 +13,4 @@ dependencies:
   - xarray
   - requests
   - pandas
+  - s3fs
