@@ -1,1 +1,1 @@
-This binder branch is just for the binder environment file
+This binder branch is just for the binder Dockerfile
