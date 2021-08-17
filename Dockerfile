@@ -1,1 +1,1 @@
-FROM pangeo/pangeo-notebook:master
+FROM pangeo/pangeo-notebook:e60dfe1
