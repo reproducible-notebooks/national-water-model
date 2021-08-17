@@ -1,1 +1,1 @@
-FROM pangeo-gallery/default-binder
+FROM pangeo/pangeo-notebook:e60dfe1
